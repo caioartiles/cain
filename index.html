@@ -1,19 +1,119 @@
 <!DOCTYPE html>
-<html>
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cria Arti</title>   
- </head>
- <body>
-    <h1>
-        Caio Artiles [:
-    </h1>
-    <h2>
-        <p>
-            Nascido no Rio de janeiro, com 23 anos, desde quando consigo me lembrar fui definido por ser extrovertido e comunicativo, pensando nisso iniciei meus estudos academicos no curso de Comunicação na UFRJ (Universidade Federal do Rio de Janeiro), dentro do mesmo realizei trabalhos em todas as areas envoltas a comunicação, marketing, publicidade, jornalismo, etc, e dentro deste universo me apaixonei pelo audiovisual, ramo no qual hoje eu trabalho e me sustento, o prazer na arte de viver do que ama, de realizar e poder, literalmente, vsualizar o fruto do seu trabalho é minha maior alegria, de resto, completamente apaixonado por futebol, por fluminense e pela minha yorkshire que me acomapha dasde os 10 anos, a Nina.
-        </p>
-    </h2>
-     <img>
- </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maiores Artilheiros do Fluminense no Novo Maracanã</title>
+    <style>
+        body {
+            background-image: url('giphy bomba.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 2px solid #000; 
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid #000; 
+        }
+
+        th {
+            background-color: #8C1515; 
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #00A86B; 
+        }
+
+        tr:nth-child(odd) {
+            background-color: #FFFFFF; 
+        }
+
+        .terremoto {
+            animation: tremer 2s infinite alternate;
+            animation-delay: 7s;
+        }
+
+        @keyframes tremer {
+            0% {
+                transform: translateX(0) rotate(0deg);
+            }
+            10% {
+                transform: translateX(2px) rotate(1deg);
+            }
+            20% {
+                transform: translateX(-2px) rotate(-1deg);
+            }
+            30% {
+                transform: translateX(3px) rotate(2deg);
+            }
+            40% {
+                transform: translateX(-3px) rotate(-2deg);
+            }
+            50% {
+                transform: translateX(4px) rotate(3deg);
+            }
+            60% {
+                transform: translateX(-4px) rotate(-3deg);
+            }
+            70% {
+                transform: translateX(5px) rotate(4deg);
+            }
+            80% {
+                transform: translateX(-5px) rotate(-4deg);
+            }
+            90% {
+                transform: translateX(2px) rotate(2deg);
+            }
+            100% {
+                transform: translateX(-2px) rotate(-2deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 20px;">Maiores Artilheiros do meu Fluzão no novo Maracanã</h1>
+    <table class="terremoto">
+        <thead>
+            <tr>
+                <th>Colocação</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Gols</th>
+                <th>Jogos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>German Cano</td>
+                <td>30</td>
+                <td>45</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fred</td>
+                <td>38</td>
+                <td>42</td>
+                <td>140</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Thiago Neves</td>
+                <td>36</td>
+                <td>35</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
 </html>
+
